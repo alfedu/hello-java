@@ -1,1 +1,7 @@
 language: java
+notifications:
+  email:
+    recipients:
+      - alfedu@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
