@@ -7,7 +7,8 @@ notifications:
     on_failure: always
 deploy:
   provider: heroku
-  api_key: ''
+  api_key:
+    secure: FZmDLaCNBIFOAXwL+kRASURmDprwPPjF60ixrOpUYTU025SFF4eeqpUlubL15ui5BS99/yPY/3qg2sALNCmET+8pfyA4sar9GEtzp0V5f6wpemdONhdyV+M3Su66iklviLtX9ts1prbz4MC37u6YgW59aaui6+C0++kalCFM6bgmSnR7Jn4HKZa51z4bFIyqOMaD9NOzwVnbh+0S8lYEMqL8HP0S4dvl47Y6Kfv0bks52pZ97oRmDeEDVJVg32a65WwaSaoQBpOcLDFnS4Nq8ObmhQs2geojhKe6Zre7TCorpd1vl3hTitQHCH4RhnGq6XfiHbwk7z3dfx/0YZavITLjFmLAwXGFfkJrSOW1sttKfbeJO5JfB2raBKcDnHIg+d/GBim/AwTJm9u/xAcGRElx0+wPXpazXpJrQ5eKh3/uH2XEwRxIqo3ElGd4yFNEUu1ElTBf4PtDojQzgC+52TlQY7H2g9npZcEnLUbRF4ppaaJDpExurPZwWjLMdSPycU3ufYiISvSr6Cq8DZ4OZHel+FbG95sdmEKmUDSHJmUDwR+IE6DzLXs1t36TWO25TlwxRab5tYhbo+1fB4mmLFUSK2gRcKkM27Na3Trtujv7iAF9RVHimn7eLmeC1P88s+Uvuhwy/UMNsKl+w1b4pTkxnP20uEzRK0zqV57Cv2I=
   app: hello-java
   on:
     repo: alfedu/hello-java
