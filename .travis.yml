@@ -2,6 +2,13 @@ language: java
 notifications:
   email:
     recipients:
-      - alfedu@gmail.com
-    on_success: always # default: change
-    on_failure: always # default: always
+    - alfedu@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  api_key:
+    secure: ADcMFqPs3YvN+lvIYpEsGeyo5GvOhqmbXlHGegV4SOreXo+AN66oHMqXpwPeoRZA0bNC/lir6k3s7PQN/VgRzhyNZbRPOFmQoZoRERKzrZ9rndu9WZUs/cI1XdVw4BhOkePTdTZzvIoPpW5fjEWNTPQS6Lne2hsJvW4jNqjcA2JYmg52Y9w2IINKcEaWri73Dpii5ke3g6dduzJ10vfT3fyFESbp8PvPwSI3LlcYFIeLL2JB4gWjp46O7pdLVr5trdKjZji7ofpD2boFr43BZW5S2MILYnYuFUAYS5LG7XTN3ZIfQiMeCWuCvLmTVT1YOAIGfZvRvj0Rg0jwU4N9JLnAYGlTcaTxIwE5yQViyTgec2gGTF5SUP1Mvwodl2TxNNA29M35oNv9TEolIoWrrniZJyJaFwgZN5Qa129DPjDLALJ44lKe0hoyV9lQ6vobBytiWl9JLk1xIAdKibyi3derNNIjWwhcDlSNB1DtgXo34e07kFf7NYwJ7yOYyXtogkGHRbOoIJkcYAt8rnQjlO5tZVR6UwD/Vuk2fUkPOBrLe//T/DGuI/qHyR1hS5CKYtaKQXdgKOSxQ66F7pCm1JfzaAu/ZI57+P2Nmo02YC3MJ4wtsyAvmKu+HRzJ5Fahtg5sxVBRL5Qj2cpHSPmwGvjhNqU387R/EqjPSSnX0CQ=
+  app: hello-java
+  on:
+    repo: alfedu/hello-java
